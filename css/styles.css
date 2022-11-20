@@ -1,0 +1,10 @@
+/*use # to target id tags . for classes*; changes the background color of the page*/
+#title{
+    background-color: #ff4c68;
+}
+.font-mts{
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 900; /*Montserrat-Black*/
+    font-size: large;
+    line-height: 100%;
+}
