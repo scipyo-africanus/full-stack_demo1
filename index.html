@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>TinDog</title>
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <!-- Font Awesome CDN -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <!-- Bootstrap Stylesheet -->
@@ -21,8 +21,8 @@
   <section id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Tindog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,7 +31,7 @@
             <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#">Features</a>
             <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            <a class="nav-item nav-link disabled" href="#">New Feature- Coming Soon!</a>
           </div>
         </div>
       </nav>
@@ -42,12 +42,13 @@
           <h1 class="font-mts">Meet new and interesting dogs nearby.</h1>
           <!-- Generally should use a span tag instead if i; commented out code is most recent cdn reference -->
           <!-- <button type="button" class="btn btn-dark"><i class="fa-brands fa-apple"></i>Download</button> -->
-          <button type="button" class="btn btn-dark"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
           <!-- <button type="button" class="btn btn-outline-light"><i class="fa-brands fa-google-play"></i>Download</button> -->
-          <button type="button" class="btn btn-outline-light"><i class="fab fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button" ><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+          <!-- Add class to title image for style editing -->
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
     </div>
@@ -57,16 +58,23 @@
   <!-- Features -->
 
   <section id="features">
-
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+    <div class="row">
+      <div class="mid-span col-lg-4 col-sm-12">
+        <span class="fab fa-bullseye"></span>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="mid-span col-lg-4 col-sm-12">
+        <span class="fab fa-bullseye fa-circle-check"></span>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="mid-span col-lg-4 col-sm-12">
+        <span class=" fab fa-bullseye fa-sharp fa-solid fa-heart"></span>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
   </section>
 
 
