@@ -52,28 +52,40 @@ body{
     /* Rotate -pi/8 */
     transform: rotate(0.392699081rad);
 }
-/* .middle-icon{
-    vertical-align: middle;
-    text-align: center;
-} */
-/* Features */
+/* Features Section */
+/* Replace the .mid-row class with feature-title-text */
+#features{
+    padding: 7% 15%;
+}
 .mid-span{
     vertical-align: middle;
     text-align: center;
     /* Include hover animateion (test) */
 }
-.mid-row{
-    /* Add padding to top of Features section */
+/* .middle-icon{
+    vertical-align: middle;
+    text-align: center;
+} */
+/* .mid-row{
+    // Add padding to top of Features section 
     padding: 4.5rem 0 0 0;
+} */
+.feature-title-text{
+    font-family: Montserrat;
+    font-weight: 900;
 }
 .colorize-orange{
     color: #ff4c68;
-    /* transition: color 0.25s; */
+    margin-bottom: 1rem;
+    transition: color 0.25s;
     /* transition: cubic-bezier(0.455, 0.03, 0.515, 0.955); */
     transition: size 0.25s;
 }
 .colorize-orange:hover{
-    /* color: #fff; */
+    color: #fe9c9c;
     /* Increase icon by 50% on hover of cursor */
-    font-size: 150%;
+    /* Scaling is based off of original icon size so a 150% 'increase' from 100% would 
+        be 37.5% size for a 4x icon 
+        Currently utilizing a 12.5% increase in size on hover*/
+    font-size: 450%;
 }
