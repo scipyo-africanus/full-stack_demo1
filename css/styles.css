@@ -56,7 +56,24 @@ body{
     vertical-align: middle;
     text-align: center;
 } */
+/* Features */
 .mid-span{
     vertical-align: middle;
     text-align: center;
+    /* Include hover animateion (test) */
+}
+.mid-row{
+    /* Add padding to top of Features section */
+    padding: 4.5rem 0 0 0;
+}
+.colorize-orange{
+    color: #ff4c68;
+    /* transition: color 0.25s; */
+    /* transition: cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+    transition: size 0.25s;
+}
+.colorize-orange:hover{
+    /* color: #fff; */
+    /* Increase icon by 50% on hover of cursor */
+    font-size: 150%;
 }
