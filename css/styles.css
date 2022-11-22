@@ -89,3 +89,35 @@ body{
         Currently utilizing a 12.5% increase in size on hover*/
     font-size: 450%;
 }
+
+/* Testimonial Section */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+    background-color: #fe9c9c;
+}
+.testimonials-header{
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    /* text-align: center; */
+    align-items: center;
+}
+
+/* Press Section */
+#press{
+    background-color: #fe9c9c;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
