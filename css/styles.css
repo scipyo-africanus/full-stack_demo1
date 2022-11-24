@@ -92,7 +92,6 @@ body{
 
 /* Testimonial Section */
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
     color: #fff;
     background-color: #fe9c9c;
@@ -100,16 +99,29 @@ body{
 .testimonials-header{
     font-family: Montserrat;
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 1.5;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
-    margin: 20px;
+    margin: auto;
     /* text-align: center; */
     align-items: center;
 }
+
+/* .carousel-item{
+    padding: 7% 15%;
+    align-items: center;
+    text-align: center;
+} */
+/* Remove shading from carousel icons*/
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+ }
 
 /* Press Section */
 #press{
