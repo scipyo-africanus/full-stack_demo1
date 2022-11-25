@@ -51,6 +51,7 @@ body{
     width: 60%;
     /* Rotate -pi/8 */
     transform: rotate(0.392699081rad);
+    padding: 7% 7%;
 }
 /* Features Section */
 /* Replace the .mid-row class with feature-title-text */
@@ -137,5 +138,43 @@ body{
 /* Pricing Section */
 
 #pricing{
-    padding: 100px;
+    padding: 50px;
+}
+.pricing-header{
+    vertical-align: middle;
+    text-align: center;
+}
+/* For smaller devices (< 1028px) */
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Round Up Section */
+
+#cta{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    /* align-items: center; */
+}
+.action-item{
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.cta-span{
+    vertical-align: middle;
+    text-align: center;
+    /* Include hover animateion (test) */
 }
